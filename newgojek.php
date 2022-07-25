@@ -1,8 +1,7 @@
 <?php
 
 date_default_timezone_set('Asia/Jakarta');
-os.system('clear');
-include "fcgomart.php";
+os.system('c
 ulang:
 // function change(){
 echo color("purple","               CLAIM VOUCHER GOJEK   GOMART                  \n");
