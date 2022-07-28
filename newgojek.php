@@ -21,11 +21,7 @@ echo color("blue","        Format Nomor 08/62 Pake Salah Satu                  \
         $nohp = str_replace("-","",$nohp);
         $nohp = str_replace(" ","",$nohp);
 
-        if (!preg_match('/[^+0-9]/', trim($nohp) {
-            if (substr(trim($nohp),0,3)=='62') {
-                $hp = trim($nohp);
-            }
-            else if (substr(trim($nohp),0,1)=='0') {
+        if (substr(trim($nohp),0,1)=='0') {
                 $hp = '62'.substr(trim($nohp),1);
         }
          elseif(substr(trim($nohp), 0, 2)=='62'){
