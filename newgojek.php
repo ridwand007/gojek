@@ -6,7 +6,7 @@ ulang:
 // function change(){
 echo color("purple","               CLAIM VOUCHER GOJEK   GOMART                  \n");
 echo color("red","                By Becak-Balap                     \n");
-echo color("nevy","        Waktu  : ".date('[d-m-Y] [H:i:s]')."                        \n");
+echo color("nevy","        Waktu  : ".date('[d-m-Y] [H-i-s]')."                        \n");
 echo color("green","         Donasi Bisa Ke WA Dibawah Ini                       \n") ;
 echo color("yellow","                 WA 08xxxxxxxxxx                          \n");
 echo color("blue","        Format Nomor 08/62 Pake Salah Satu                  \n");
