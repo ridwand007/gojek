@@ -21,15 +21,6 @@ echo color("blue","        Format Nomor 08/62 Pake Salah Satu                  \
         $nohp = str_replace("-","",$nohp);
         $nohp = str_replace(" ","",$nohp);
 
-        if (substr(trim($nohp),0,1)=='0') {
-                $hp = '62'.substr(trim($nohp),1);
-        }
-         elseif(substr(trim($nohp), 0, 2)=='62'){
-            $hp = '6'.substr(trim($nohp), 1);
-        }
-        else{
-            $hp = '1'.substr(trim($nohp),0,13);
-        }
     }
         $data = '{"email":"'.$email.'@gmail.com","name":"'.$nama.'","phone":"+'.$hp.'","signed_up_country":"ID"}';
         $register = request("/v5/customers", null, $data);
